@@ -9,3 +9,4 @@ npm i
 ```
 node sendRequest.js
 ```
+4. View response from terminal `sample_response.json`
