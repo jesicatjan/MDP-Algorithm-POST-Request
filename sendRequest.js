@@ -16,6 +16,12 @@ async function sendRequest() {
         retrying: false
     };
 
+    // d-values for obstacles:
+    // up : 0
+    // right : 2
+    // down : 4
+    // left : 6
+
     try {
         const response = await axios.post(url, data, {
             headers: {
