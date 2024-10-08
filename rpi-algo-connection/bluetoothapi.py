@@ -1,4 +1,6 @@
 import bluetooth
+from format import formatToAlgo, formatToSTM
+from sendRequest import sendRequest
 
 class BluetoothAPI:
     # Static variables: MAC addresses, port, and buffer size
@@ -64,9 +66,6 @@ class BluetoothAPI:
             self.server_socket = None
         print("[BT] Disconnected from client.")
 
-def formatToAlgo():
-    print("formatToAlgo() called!")
-
 # Example usage
 if __name__ == "__main__":
     bt_api = BluetoothAPI()
@@ -87,10 +86,13 @@ if __name__ == "__main__":
 
                 # Call formatToAlgo
                 formatted_algo = formatToAlgo(initialPositions)
-                print(f"Stored initialPositions: {initialPositions}")
+                print(f"Stored formatted_algo: {formatted_algo}")
 
                 # Send the formatted message to the algorithm
+                response = sendRequest(formatted_algo)
 
+                # Call formatToSTM
+                formatted_stm = formatToSTM(response)
 
                 # Reset the flag
                 waiting_for_initial_positions = False
