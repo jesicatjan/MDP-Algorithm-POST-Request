@@ -41,22 +41,6 @@ def formatToAlgo(initialPositions):
 
     return formatted_algo
 
-# Example usage
-# message = "OBSTACLE,1,5,4,NORTH\nOBSTACLE,2,5,4,NORTH\nOBSTACLE,3,5,4,NORTH\nOBSTACLE,4,5,4,NORTH\nOBSTACLE,5,5,4,NORTH"
-# formatted_result = formatToAlgo(message)
-# print(formatted_result)
-
-# Example usage
-# OBSTACLE,1,5,4,NORTH
-# OBSTACLE,2,5,4,NORTH
-# OBSTACLE,3,5,4,NORTH
-# OBSTACLE,4,5,4,NORTH
-# OBSTACLE,5,5,4,NORTH
-
-def formatToSTM(initialPositions):
-    # Example formatting function (replace with your algorithm logic)
-    formatted_algo = {
-        "positions": initialPositions,
-        "status": "formatted"
-    }
-    return formatted_algo
+message = "OBSTACLE,1,5,4,NORTH\nOBSTACLE,2,5,4,NORTH\nOBSTACLE,3,5,4,NORTH\nOBSTACLE,4,5,4,NORTH\nOBSTACLE,5,5,4,NORTH"
+formatted_result = formatToAlgo(message)
+print(formatted_result)
