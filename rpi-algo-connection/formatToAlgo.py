@@ -1,5 +1,5 @@
 # sample message stored in rpi from android
-# message = "OBSTACLE,1,5,4,NORTH\nOBSTACLE,2,5,4,NORTH\nOBSTACLE,3,5,4,NORTH\nOBSTACLE,4,5,4,NORTH\nOBSTACLE,5,5,4,NORTH"
+# initialPositions = "OBSTACLE,1,5,4,NORTH\nOBSTACLE,2,5,4,NORTH\nOBSTACLE,3,5,4,NORTH\nOBSTACLE,4,5,4,NORTH\nOBSTACLE,5,5,4,NORTH"
 
 def formatToAlgo(initialPositions):
     obstacles = []

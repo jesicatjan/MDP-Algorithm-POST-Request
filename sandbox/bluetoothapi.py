@@ -2,7 +2,6 @@ import bluetooth
 from formatToAlgo import formatToAlgo
 from formatToSTM import formatToSTM
 from sendRequest import sendRequest
-from sendCommands import sendCommands
 
 class BluetoothAPI:
     # Static variables: MAC addresses, port, and buffer size
@@ -97,7 +96,7 @@ if __name__ == "__main__":
                 formatted_stm = formatToSTM(response)
 
                 # Send the formatted message to STM
-                received = sendCommands(formatted_stm)
+                # received = sendCommands(formatted_stm)
 
                 # Reset the flag
                 waiting_for_initial_positions = False

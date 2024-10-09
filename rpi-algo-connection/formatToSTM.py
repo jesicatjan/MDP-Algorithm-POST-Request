@@ -28,7 +28,7 @@ def format_commands(data):
             formatted_commands.append(f"bl 90")
 
     # Join the formatted commands with a comma and space
-    return ', '.join(formatted_commands) + ','
+    return ','.join(formatted_commands) + ','
 
 json_data = {
   "data": {
