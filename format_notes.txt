@@ -1,0 +1,40 @@
+*Android to RPi*
+
+OBSTACLE,1,5,4,NORTH
+OBSTACLE,2,5,4,NORTH
+OBSTACLE,3,5,4,NORTH
+OBSTACLE,4,5,4,NORTH
+OBSTACLE,5,5,4,NORTH
+
+
+
+*RPi to STM*
+
+forward:
+f (distance),
+backward:
+b (distance),
+forward right:
+fr (angle),
+forward left:
+fl (angle),
+backward right:
+br (angle),
+backward left:
+bl (angle),
+remember to have the comma at the end of each command, space between command and distance/angle
+
+
+
+*Algo to STM*
+
+FW10
+BW10
+SNAP7_L
+SNAP1_C
+SNAP2_R
+FR00 | FR30: Forward Right;
+FL00 | FL30: Forward Left;
+BR00 | BR30: Backward Right;
+BL00 | BL30: Backward Left;
+FIN
