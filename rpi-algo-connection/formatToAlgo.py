@@ -41,6 +41,6 @@ def formatToAlgo(initialPositions):
 
     return formatted_algo
 
-message = "OBSTACLE,1,5,4,NORTH\nOBSTACLE,2,5,4,NORTH\nOBSTACLE,3,5,4,NORTH\nOBSTACLE,4,5,4,NORTH\nOBSTACLE,5,5,4,NORTH"
-formatted_result = formatToAlgo(message)
-print(formatted_result)
+# message = "OBSTACLE,1,5,4,NORTH\nOBSTACLE,2,5,4,NORTH\nOBSTACLE,3,5,4,NORTH\nOBSTACLE,4,5,4,NORTH\nOBSTACLE,5,5,4,NORTH"
+# formatted_result = formatToAlgo(message)
+# print(formatted_result)

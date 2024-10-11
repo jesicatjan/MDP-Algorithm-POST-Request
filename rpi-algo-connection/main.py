@@ -7,8 +7,8 @@ import sendRequest
 
 # Bluetooth API class to manage the Bluetooth connection
 class BluetoothAPI:
-    MAC_ADDRESS = 'E4:5F:01:55:A6:F3'  # Raspberry Pi's MAC address
-    TABLET_BLUETOOTH = '48:61:EE:2A:A9:52'  # Android tablet Bluetooth MAC address
+    MAC_ADDRESS = 'AA:AA:AA:AA:AA:AA'  # Raspberry Pi's MAC address
+    TABLET_BLUETOOTH = '90:EE:C7:E7:D6:40'  # Android tablet Bluetooth MAC address
     PORT_NUMBER = 1
     READ_BUFFER_SIZE = 5096
 

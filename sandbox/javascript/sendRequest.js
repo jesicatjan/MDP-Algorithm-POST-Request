@@ -41,7 +41,7 @@ const data = {
 };
 
 // Call the function with the JSON data
-sendRequest(data);
+// sendRequest(data);
 
 // d-values for obstacles:
 // up : 0

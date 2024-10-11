@@ -185,5 +185,5 @@ json_data = {
   "error": None
 }
 
-formatted_result = format_commands(json_data)
-print(formatted_result)
+# formatted_result = format_commands(json_data)
+# print(formatted_result)
